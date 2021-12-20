@@ -117,7 +117,8 @@ section {
 }
 
 .header.active {
-    padding: 2rem 9%;
+    height: fit-content;
+    padding: 0rem 0%;
     box-shadow: var(--box-shadow);
 }
 
@@ -139,6 +140,11 @@ section {
     background: rgba(255, 255, 255, 0.9);
     z-index: 10000;
 }
+
+.login-form-container.logined {
+    display: none;
+}
+
 
 .login-form-container.active {
     top: 0;
