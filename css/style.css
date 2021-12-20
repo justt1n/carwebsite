@@ -141,7 +141,7 @@ section {
     z-index: 10000;
 }
 
-.login-form-container.logined {
+.login-form-container.logged {
     display: none;
 }
 

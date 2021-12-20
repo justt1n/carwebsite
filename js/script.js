@@ -126,16 +126,15 @@ function validate() {
     console.log("ok nè");
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-    if (username == "tinlong@gmail.com" && password == "123456") {
+    if (username == "admin@gmail.com" && password == "123456") {
         alert("Login successfully");
         window.location = "index.html"; // Redirecting to other page.
-        document.querySelector(".login-form-container").classList.toggle("logined");
         return false;
     } else {
         attempt--; // Decrementing by one.
         alert("You have left " + attempt + " attempt;");
         alert(
-            "Try username: &quot;tinlong@gmail.com&quot; and password: &quot;123456&quot;"
+            "Try username: \"admin@gmail.com\" and password: \"123456\""
         );
         // Disabling fields after 3 attempts.
         if (attempt == 0) {
