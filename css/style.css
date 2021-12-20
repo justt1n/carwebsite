@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;600&display=swap");
 
 :root {
     --colour: #62d2a2;
@@ -10,7 +10,7 @@
 }
 
 * {
-    font-family: "Poppins", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +20,7 @@
     text-transform: capitalize;
     transition: 0.2s linear;
 }
+
 
 html {
     font-size: 62.5%;
@@ -518,7 +519,7 @@ section {
 
 .reviews .review-slider .box .content p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding: 1rem 0;
 }
 
